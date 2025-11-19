@@ -1,0 +1,42 @@
+nohup: ignoring input
+INFO:     Started server process [79653]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     78.31.67.111:0 - "GET / HTTP/1.1" 200 OK
+INFO:     78.31.67.111:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     89.163.145.97:0 - "GET /setup HTTP/1.1" 200 OK
+INFO:     89.163.145.97:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.145.97:0 - "GET /api/config HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42212 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:42216 - "HEAD /setup HTTP/1.1" 405 Method Not Allowed
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45666 - "GET / HTTP/1.1" 200 OK
+INFO:     54.37.206.220:0 - "GET / HTTP/1.1" 200 OK
+INFO:     78.31.67.36:0 - "GET / HTTP/1.1" 200 OK
+INFO:     78.31.67.36:0 - "GET /api/config HTTP/1.1" 307 Temporary Redirect
+INFO:     57.129.39.65:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.37:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.144.21:0 - "GET / HTTP/1.1" 200 OK
+INFO:     78.31.67.104:0 - "GET / HTTP/1.1" 200 OK
+INFO:     78.31.67.104:0 - "GET /?id=56f76627-ef1b-4449-af9d-40f8284f4197&vscodeBrowserReqId=1763586218757 HTTP/1.1" 200 OK
+INFO:     78.31.67.104:0 - "GET /?id=dc2e80f9-271a-4e25-8002-47fede19c6da&vscodeBrowserReqId=1763586268403 HTTP/1.1" 200 OK
+INFO:     78.31.67.104:0 - "GET / HTTP/1.1" 200 OK
+INFO:     57.129.52.118:0 - "GET /api/config HTTP/1.1" 307 Temporary Redirect
+INFO:     57.129.52.118:0 - "GET /?id=dc2e80f9-271a-4e25-8002-47fede19c6da&vscodeBrowserReqId=1763586360245 HTTP/1.1" 200 OK
+INFO:     57.129.52.118:0 - "GET /setup HTTP/1.1" 200 OK
+INFO:     57.129.52.118:0 - "GET / HTTP/1.1" 200 OK
+INFO:     4.210.177.128:0 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     89.163.145.73:0 - "GET / HTTP/1.1" 200 OK
+INFO:     57.129.52.118:0 - "GET /?id=dc2e80f9-271a-4e25-8002-47fede19c6da&vscodeBrowserReqId=1763586709237 HTTP/1.1" 200 OK
+INFO:     57.129.52.118:0 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50760 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50772 - "HEAD /setup HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50784 - "HEAD /api/config/ HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50800 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     89.163.145.65:0 - "GET / HTTP/1.1" 200 OK
+INFO:     89.163.145.65:0 - "GET /?id=ae7df67c-8910-4709-99ee-4609c6e661be&vscodeBrowserReqId=1763586973286 HTTP/1.1" 200 OK

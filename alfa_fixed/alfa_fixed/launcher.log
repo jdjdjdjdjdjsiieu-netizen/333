@@ -1,0 +1,71 @@
+nohup: ignoring input
+
+[94m╔════════════════════════════════════════════════════════════╗
+║   ALFA CAMPAIGN MANAGER - Проверка зависимостей            ║
+║   Автоматическая проверка и обновление библиотек           ║
+╚════════════════════════════════════════════════════════════╝[0m
+
+[1m[1/5] Проверка версии Python...[0m
+[92m✓ Python 3.12.1 - OK[0m
+
+[1m[2/5] Обновление pip...[0m
+[92m✓ pip обновлен до последней версии[0m
+
+[1m[3/5] Проверка зависимостей...[0m
+
+  Проверка telethon...                              [92m✓ Установлен[0m
+  Проверка fastapi...                               [92m✓ Установлен[0m
+  Проверка uvicorn...                               [92m✓ Установлен[0m
+  Проверка sqlalchemy...                            [92m✓ Установлен[0m
+  Проверка psycopg2-binary...                       [93m⚠ Не установлен, устанавливаю...[0m
+                                                    [92m✓ psycopg2-binary успешно установлен[0m
+  Проверка pydantic...                              [92m✓ Установлен[0m
+  Проверка python-dotenv...                         [92m✓ Установлен[0m
+  Проверка aiofiles...                              [92m✓ Установлен[0m
+  Проверка aiohttp...                               [92m✓ Установлен[0m
+  Проверка python-multipart...                      [93m⚠ Не установлен, устанавливаю...[0m
+                                                    [92m✓ python-multipart успешно установлен[0m
+  Проверка google-generativeai...                   [92m✓ Установлен[0m
+  Проверка groq...                                  [92m✓ Установлен[0m
+  Проверка huggingface-hub...                       [92m✓ Установлен[0m
+  Проверка requests...                              [92m✓ Установлен[0m
+
+[1m[4/5] Проверка критических пакетов...[0m
+
+  Telethon                       [92m✓ OK[0m
+  FastAPI                        [92m✓ OK[0m
+  Uvicorn                        [92m✓ OK[0m
+  SQLAlchemy                     [92m✓ OK[0m
+  psycopg2-binary                [92m✓ OK[0m
+
+[1m[5/5] Итоговый отчет:[0m
+
+  Всего пакетов:        14
+  [92m✓ Установлено:        14[0m
+
+[92m[1m╔════════════════════════════════════════════════════════════╗
+║   ✓ ВСЕ ЗАВИСИМОСТИ УСТАНОВЛЕНЫ И ГОТОВЫ К РАБОТЕ!         ║
+╚════════════════════════════════════════════════════════════╝[0m
+
+[92mМожно запускать приложение![0m
+
+2025-11-19 20:46:22,173 - INFO - Start polling
+2025-11-19 20:46:22,187 - INFO - Run polling for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
+2025-11-19 20:46:26,200 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:26,201 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8289698590)
+2025-11-19 20:46:31,443 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:31,443 - WARNING - Sleep for 1.356771 seconds and try again... (tryings = 1, bot id = 8289698590)
+2025-11-19 20:46:37,380 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:37,380 - WARNING - Sleep for 1.648454 seconds and try again... (tryings = 2, bot id = 8289698590)
+2025-11-19 20:46:43,997 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:43,997 - WARNING - Sleep for 1.972799 seconds and try again... (tryings = 3, bot id = 8289698590)
+2025-11-19 20:46:51,557 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:51,557 - WARNING - Sleep for 2.455392 seconds and try again... (tryings = 4, bot id = 8289698590)
+2025-11-19 20:46:57,188 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:46:57,188 - WARNING - Sleep for 3.216533 seconds and try again... (tryings = 5, bot id = 8289698590)
+2025-11-19 20:47:04,486 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-11-19 20:47:04,486 - WARNING - Sleep for 4.039166 seconds and try again... (tryings = 6, bot id = 8289698590)
+2025-11-19 20:47:18,542 - INFO - Connection established (tryings = 7, bot id = 8289698590)
+2025-11-19 20:49:17,660 - INFO - Update id=516993843 is handled. Duration 44 ms by bot id=8289698590
+2025-11-19 20:49:20,003 - INFO - Update id=516993844 is handled. Duration 86 ms by bot id=8289698590
+2025-11-19 20:54:01,948 - INFO - Update id=516993845 is handled. Duration 49 ms by bot id=8289698590

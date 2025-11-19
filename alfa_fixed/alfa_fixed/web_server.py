@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 import os
 
@@ -16,6 +16,11 @@ except Exception:
 # Простая страница, перенаправляющая на /setup или на API UI
 @app.get("/", response_class=HTMLResponse)
 async def root():
+    # Если есть собранный фронтенд, отдать index.html
+    frontend_index = Path(__file__).parent / "build" / "index.html"
+    if frontend_index.exists():
+        return FileResponse(frontend_index)
+
     html = """
     <html>
       <head><title>Alfa Campaign Manager</title></head>
@@ -31,7 +36,12 @@ async def root():
 # Маршрут /setup — возвращаем простую страницу с инструкциями
 @app.get("/setup", response_class=HTMLResponse)
 async def setup_page():
-    html = """
+  frontend_index = Path(__file__).parent / "build" / "index.html"
+  if frontend_index.exists():
+    # Single page application — отдаём index.html для маршрутов фронтенда
+    return FileResponse(frontend_index)
+
+  html = """
     <html>
       <head><title>Setup - Alfa</title></head>
       <body>
@@ -41,6 +51,19 @@ async def setup_page():
     </html>
     """
     return HTMLResponse(content=html, status_code=200)
+
+
+@app.get("/health", tags=["health"])  # liveness
+async def health():
+  return {"status": "ok"}
+
+
+@app.get("/health/ready", tags=["health"])  # readiness
+async def readiness():
+  # Example readiness: database exists
+  db_file = Path(__file__).parent / "alfa.db"
+  ready = db_file.exists()
+  return {"ready": ready}
 
 # Попробуем смонтировать папку `public` или `build` для фронтенда, если она есть
 if os.path.isdir("public"):
