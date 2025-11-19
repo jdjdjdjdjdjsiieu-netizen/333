@@ -45,3 +45,7 @@
 2025-11-19 21:25:43,832 - WARNING - Received SIGTERM signal
 2025-11-19 21:25:43,832 - INFO - Polling stopped for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
 2025-11-19 21:25:43,832 - INFO - Polling stopped
+2025-11-19 21:36:00,937 - INFO - Start polling
+2025-11-19 21:36:00,953 - INFO - Run polling for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
+2025-11-19 21:36:01,100 - INFO - Update id=516993846 is handled. Duration 139 ms by bot id=8289698590
+2025-11-19 21:36:09,774 - INFO - Update id=516993847 is handled. Duration 33 ms by bot id=8289698590
