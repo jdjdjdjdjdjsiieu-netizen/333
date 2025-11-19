@@ -1,0 +1,17 @@
+2025-11-19 19:28:18,656 - WARNING - Ключи GEMINI_API_KEY или GROQ_API_KEY не установлены. ИИ-функции будут недоступны.
+2025-11-19 19:29:31,446 - WARNING - Ключи GEMINI_API_KEY или GROQ_API_KEY не установлены. ИИ-функции будут недоступны.
+2025-11-19 19:29:31,573 - INFO - Start polling
+2025-11-19 19:29:34,428 - INFO - Run polling for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
+2025-11-19 19:33:25,970 - INFO - Update id=516993813 is handled. Duration 36 ms by bot id=8289698590
+2025-11-19 19:33:45,593 - INFO - Update id=516993814 is handled. Duration 205 ms by bot id=8289698590
+2025-11-19 19:33:53,618 - INFO - Update id=516993815 is handled. Duration 23 ms by bot id=8289698590
+2025-11-19 19:36:03,254 - INFO - Update id=516993816 is handled. Duration 84 ms by bot id=8289698590
+2025-11-19 19:42:12,948 - INFO - Update id=516993817 is handled. Duration 83 ms by bot id=8289698590
+2025-11-19 19:42:26,367 - INFO - Update id=516993818 is handled. Duration 39 ms by bot id=8289698590
+2025-11-19 19:42:32,423 - INFO - Update id=516993819 is handled. Duration 22 ms by bot id=8289698590
+2025-11-19 19:42:39,834 - INFO - Update id=516993820 is handled. Duration 22 ms by bot id=8289698590
+2025-11-19 19:42:46,054 - INFO - Update id=516993821 is handled. Duration 138 ms by bot id=8289698590
+2025-11-19 19:43:24,547 - INFO - Update id=516993822 is handled. Duration 67 ms by bot id=8289698590
+2025-11-19 19:46:04,237 - WARNING - Received SIGINT signal
+2025-11-19 19:46:04,238 - INFO - Polling stopped for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
+2025-11-19 19:46:04,238 - INFO - Polling stopped
