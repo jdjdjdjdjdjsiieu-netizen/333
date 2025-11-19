@@ -1,1 +1,6 @@
 .env
+
+# Ignore runtime logs and pids for alfa_fixed app
+/alfa_fixed/alfa_fixed/launcher.log
+/alfa_fixed/alfa_fixed/uvicorn.log
+/alfa_fixed/alfa_fixed/*.pid
