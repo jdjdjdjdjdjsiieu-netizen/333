@@ -69,3 +69,6 @@ nohup: ignoring input
 2025-11-19 20:49:17,660 - INFO - Update id=516993843 is handled. Duration 44 ms by bot id=8289698590
 2025-11-19 20:49:20,003 - INFO - Update id=516993844 is handled. Duration 86 ms by bot id=8289698590
 2025-11-19 20:54:01,948 - INFO - Update id=516993845 is handled. Duration 49 ms by bot id=8289698590
+2025-11-19 21:25:43,832 - WARNING - Received SIGTERM signal
+2025-11-19 21:25:43,832 - INFO - Polling stopped for bot @svoy_alfa_team_bot id=8289698590 - 'Свой в Альфа-Банке'
+2025-11-19 21:25:43,832 - INFO - Polling stopped
