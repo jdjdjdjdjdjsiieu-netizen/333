@@ -7,7 +7,17 @@ from aiogram.fsm.state import State, StatesGroup
 from free_llm_service import get_llm_completion, get_llm_json_completion
 import json
 
-from config import BOT_TOKEN, LLM_MODEL, PARTNER_LINKS, PRODUCT_INFO, CONTEXT_QUESTIONS, OBJECTION_HANDLING_PROMPT, GEMINI_API_KEY, GROQ_API_KEY
+from config import (
+    BOT_TOKEN,
+    LLM_MODEL,
+    PARTNER_LINKS,
+    PRODUCT_INFO,
+    CONTEXT_QUESTIONS,
+    OBJECTION_HANDLING_PROMPT,
+    GEMINI_API_KEY,
+    GROQ_API_KEY,
+    AI_STYLE_PROMPT,
+)
 from db import init_db, get_user_data, update_user_data, add_contact, get_all_contacts
 
 # Настройка логирования
